@@ -24,7 +24,7 @@ Note: This is written in C++11.
 Grade: B1  
 An assignment for Computer Systems 2A. I wrote the majority of the scripts but another student wrote the script to make backups of files. The software is run by executing the repository_app.sh script.
 
-## Other projects
+## Other projects (not in repository)
 ### Medtronic Hololens Project – December 2017-March 2018
 As an extracurricular project I made a mixed reality app for the Microsoft Hololens. The aim of the app was to educate medical students about the knee and I made it using Unity and C#. I was in a team of 7 students, although I was the only one studying computing science. I can't put any of the code online as it is owned by Medtronic but I did make a video of the app which can be found here: https://uod.box.com/s/2ozbkm859ieyebw03g2obwl769lp9p3f
 
