@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=GridSpace
+comment0.text=\n\ GridSpace\n\ \n\ Keep\ track\ of\ a\ square\ in\ a\ grid\ and\ check\ if\ there\ is\ a\ ship\ on\ that\ square\n\n\ @author\ Freya\ Murphy\n\ @version\ 27-07-17\n
+comment1.params=newRow\ newColumn
+comment1.target=GridSpace(int,\ int)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ GridSpace\n\ \n\ @param\ \ \ x\ and\ y\ coordinated\n\ @return\ \ none\n
+comment2.params=
+comment2.target=int\ getRow()
+comment2.text=\n\ getRow\n\ \n\ Accessor\ method\ for\ row\ field\n\ \n\ @param\ \ \ none\n\ @return\ \ row\ of\ square\n
+comment3.params=
+comment3.target=int\ getColumn()
+comment3.text=\n\ getColumn\n\ \n\ Accessor\ method\ for\ column\ field\n\ \n\ @param\ \ \ none\n\ @return\ \ column\ of\ square\n
+comment4.params=
+comment4.target=boolean\ isOccupied()
+comment4.text=\n\ isOccupied\n\ \n\ Accessor\ method\ for\ occupied\ field\n\ \n\ @param\ \ \ none\n\ @return\ \ occupied\n
+comment5.params=newOccupied
+comment5.target=void\ setOccupied(boolean)
+comment5.text=\n\ setOccupied\n\ \n\ Updates\ value\ of\ occupied\ to\ true\ or\ false\n\ \n\ @param\ \ \ newOccupied\ (true\ or\ false)\n\ @return\ \ none\n
+comment6.params=shots
+comment6.target=void\ display(Shot[])
+comment6.text=\n\ Display\n\ \n\ Displays\ the\ square\ on\ the\ screen\n\ \n\ @param\ \ \ array\ of\ shots\n\ @return\ \ none\n
+numComments=7

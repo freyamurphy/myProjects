@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=SavedGame
+comment0.text=\n\ Save\ and\ load\ game\ from\ text\ file.\n\n\ @author\ Freya\ Murphy\n\ @version\ 31-07-17\n
+comment1.params=
+comment1.target=SavedGame()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ SavedGame\n
+comment2.params=
+comment2.target=boolean\ isEmpty()
+comment2.text=\n\ isEmpty\n\ \n\ Accessor\ method\ for\ empty\ field\n\ \n\ @param\ \ \ none\n\ @return\ \ empty\n
+comment3.params=
+comment3.target=loadGameInfo\ loadGame()
+comment3.text=\n\ loadGame\n\ \n\ Loads\ saved\ game\ from\ text\ file\ and\ allows\ user\ to\ continue\ playing\n\ \n\ @param\ \ \ none\n\ @return\ \ none\n
+comment4.params=fleet\ shots\ noOfShots
+comment4.target=void\ saveGame(ships.Fleet,\ Shot[],\ int)
+comment4.text=\n\ saveGame\n\ \n\ Saves\ shots\ fired\ and\ positions\ of\ ships\ for\ both\ players\ to\ a\ text\ file.\n\ \n\ @param\ \ \ grid\ with\ position\ of\ ships,\ array\ of\ shots\ fired,\ number\ of\ shots\ fired\n\ @return\ \ none\n
+numComments=5

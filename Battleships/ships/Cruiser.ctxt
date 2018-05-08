@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Cruiser
+comment0.text=\n\ Cruiser\n\ \n\ A\ type\ of\ Ship\n\n\ @author\ Freya\ Murphy\n\ @version\ 15-07-17\n
+comment1.params=
+comment1.target=Cruiser()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Cruiser\n\ \n\ @param\ \ \ none\n\ @return\ \ none\n
+numComments=2

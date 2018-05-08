@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Shot
+comment0.text=\n\ Shot\n\ \n\ Keep\ track\ of\ a\ shot\u2019s\ position\ on\ the\ grid\ and\ whether\ it\ is\ a\ hit\ or\ a\ miss.\n\n\ @author\ Freya\ Murphy\n\ @version\ 23-07-17\n
+comment1.params=newRow\ newCol
+comment1.target=Shot(int,\ int)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Shot\n\ \n\ @param\ \ \ row,\ column\n\ @return\ \ none\n
+comment2.params=newRow\ newCol\ newHit
+comment2.target=Shot(int,\ int,\ boolean)
+comment2.text=\n\ Another\ constructor\ that\ also\ sets\ the\ value\ of\ hit\n\ \n\ @param\ \ \ row,\ column,\ hit\n\ @return\ \ none\n
+comment3.params=
+comment3.target=int\ getRow()
+comment3.text=\n\ getRow\n\ \n\ Accessor\ method\ for\ row\n\ \n\ @param\ \ \ none\n\ @return\ \ row\n
+comment4.params=
+comment4.target=int\ getColumn()
+comment4.text=\n\ getColumn\n\ \n\ Accessor\ method\ for\ column\n\ \n\ @param\ \ \ none\n\ @return\ \ column\n
+comment5.params=
+comment5.target=boolean\ isHit()
+comment5.text=\n\ isHit\n\ \n\ Accessor\ method\ for\ hit\ field\n\ \n\ @param\ \ \ none\n\ @return\ \ hit\n
+comment6.params=grid
+comment6.target=void\ checkForHit(Grid)
+comment6.text=\n\ checkForHit\n\ \n\ Check\ if\ the\ position\ of\ the\ shot\ matches\ an\ occupied\ space\ on\ the\ grid.\ If\ it\ does\ set\ hit\ to\ true\ and\ otherwise\ set\ hit\ to\ false.\n\ \n\ @param\ \ \ grid\ (a\ 2d\ array)\n\ @return\ \ none\n
+comment7.params=
+comment7.target=void\ display()
+comment7.text=\n\ display\n\ \n\ Displays\ the\ shot\ as\ an\ X\ on\ the\ grid\n\ \n\ @param\ \ \ none\n\ @return\ \ none\n
+numComments=8

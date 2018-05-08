@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=loadGameInfo
+comment0.text=\n\ loadGameInfo\n\ \n\ Stores\ objects\ needed\ to\ load\ a\ game\ so\ they\ can\ both\ be\ returned\n\n\ @author\ Freya\ Murphy\n\ @version\ 28-08-17\n
+comment1.params=newPlayer\ newFleet
+comment1.target=loadGameInfo(Player,\ ships.Fleet)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ loadGameInfo\n\ \n\ @param\ \ \ player,\ fleet\n\ @return\ \ none\n
+comment2.params=
+comment2.target=Player\ getPlayer()
+comment2.text=\n\ getPlayer\n\ \n\ Accessor\ method\ for\ player\ field\n\ \n\ @param\ \ \ none\n\ @return\ \ player\n
+comment3.params=
+comment3.target=ships.Fleet\ getFleet()
+comment3.text=\n\ getFleet\n\ \n\ Accessor\ method\ for\ fleet\ field\n\ \n\ @param\ \ \ none\n\ @retrun\ \ fleet\n
+numComments=4

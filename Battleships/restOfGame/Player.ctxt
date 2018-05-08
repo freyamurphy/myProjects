@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Player
+comment0.text=\n\ Player\n\ \n\ Keeps\ track\ of\ and\ display\ a\ player\u2019s\ shots.\ \n\n\ @author\ Freya\ Murphy\n\ @version\ 27-07-17\n
+comment1.params=
+comment1.target=Player()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Player\n\ \n\ @param\ \ \ none\n\ @return\ \ none\n
+comment2.params=
+comment2.target=int\ getNoOfShots()
+comment2.text=\n\ getNoOfShots\n\ \n\ Accessor\ method\ for\ noOfShots\ field\n\ \n\ @param\ \ \ none\n\ @return\ \ number\ of\ shots\ made\n
+comment3.params=
+comment3.target=Shot[]\ getShots()
+comment3.text=\n\ getShots\n\ \n\ Returns\ ArrayList\ of\ player\u2019s\ shots\n\ \n\ @param\ \ \ none\n\ @return\ \ ArrayList\ of\ shots\n
+comment4.params=grid
+comment4.target=void\ makeShot(Grid)
+comment4.text=\n\ makeShot\n\ \n\ Gets\ a\ coordinate\ from\ the\ user\ and\ uses\ it\ to\ create\ a\ new\ shot\ object\n\ \n\ @param\ \ \ grid\n\ @return\ \ shot\n
+comment5.params=
+comment5.target=int[]\ getValidShotInput()
+comment5.text=\n\ getValidShotInput\n\ \n\ Gets\ a\ coordinate\ input\ from\ the\ user\ in\ the\ correct\ form\ and\ validates\ it\n\ \n\ @param\ \ \ none\n\ @return\ \ array\ of\ form\ [row,\ column]\ representing\ a\ coordinate\n
+comment6.params=newShot
+comment6.target=boolean\ isInShotArray(Shot)
+comment6.text=\n\ isInShotArray\n\ \n\ Checks\ if\ a\ shot\ has\ already\ been\ made\n\ \n\ @param\ \ \ shot\n\ @return\ \ true\ /\ false\n
+comment7.params=shot
+comment7.target=void\ addShot(Shot)
+comment7.text=\n\ addShot\n\ \n\ Adds\ a\ shot\ to\ the\ shots\ array\n\ \n\ @param\ \ \ shot\n\ @return\ \ none\n
+numComments=8

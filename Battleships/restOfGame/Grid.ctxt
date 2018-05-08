@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Grid
+comment0.text=\n\ Grid\n\ \n\ Displays\ a\ grid\ of\ squares\n\n\ @author\ Freya\ Murphy\n\ @version\ 28-07-18\n
+comment1.params=
+comment1.target=Grid()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Grid\n\ \n\ @param\ \ \ number\ of\ rows\ and\ columns\n\ @return\ \ none\n
+comment2.params=
+comment2.target=int\ getRows()
+comment2.text=\n\ getRows;\n\ \n\ Accessor\ method\ for\ rows\ field\n\ \n\ @param\ \ \ none\n\ @return\ \ number\ of\ rows\n
+comment3.params=
+comment3.target=int\ getCols()
+comment3.text=\n\ getCols\n\ \n\ Accessor\ method\ for\ cols\ field\n\ \n\ @param\ \ \ none\n\ @return\ \ number\ of\ columns\n
+comment4.params=
+comment4.target=GridSpace[][]\ getGridData()
+comment4.text=\n\ getGridData\n\ \n\ Returns\ the\ gridData\ 2d\ array\n\ \n\ @param\ \ \ none\n\ @return\ \ 2d\ array\ of\ GridSpaces\n
+comment5.params=row\ col
+comment5.target=GridSpace\ getGridSpace(int,\ int)
+comment5.text=\n\ getGridSpace\n\ \n\ Returns\ the\ GridSpace\ object\ stored\ in\ a\ specified\ position\ of\ the\ gridData\ array\n\ \n\ @param\ \ \ row,\ column\n\ @return\ \ gridSpace\n
+comment6.params=ships
+comment6.target=void\ updateGridData(ships.Ship[])
+comment6.text=\n\ updateGridData\n\ \n\ Checks\ the\ positions\ of\ ships\ and\ sets\ appropriate\ GridSpaces\ to\ occupied\n\ \n\ @param\ \ \ array\ of\ ships\n\ @return\ \ none\n
+comment7.params=shots
+comment7.target=void\ display(Shot[])
+comment7.text=\n\ display\n\ \n\ Displays\ each\ grid\ square\ on\ the\ screen.\n\ \n\ @param\ \ \ array\ of\ shots\ the\ player\ has\ made\n\ @return\ \ none\n
+numComments=8

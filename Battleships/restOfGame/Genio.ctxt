@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Genio
+comment0.text=\n\ General\ purpose\ class\ to\ enable\ simple\ coding\ of\ programs\ requiring\ data\ input\ at\ \n\ a\ text\ based\ interface.\n\ \n\ The\ class\ is\ under\ development,\ so\ where\ unexpected\ exceptions\ occur,\ please\ could\n\ you\ report\ them\ to\ me\ at\ pgregor@computing.dundee.ac.uk\n\ \n\ @author\ Peter\ Gregor\n\ @version\ 1.2\ 16th\ September\ 2003\n
+comment1.params=
+comment1.target=Genio()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ genio,\ but\ nothing\ needing\ constructed\!\n
+comment2.params=
+comment2.target=java.lang.String\ getStr()
+comment2.text=\ \n\ getStr()\ \ is\ a\ private\ method\ which\ safely\ returns\ a\ string\ for\ use\n\ by\ the\ public\ methods\ getString()\ and\ getCharacter()\ in\ the\ class.\n\ \n\ @return\ String\ for\ further\ processing\ withing\ the\ class\n
+comment3.params=
+comment3.target=int\ getInteger()
+comment3.text=\ \n\ getInteger()\ returns\ an\ integer\ value.\ Exception\ handling\ is\ used\ to\ trap\n\ invalid\ data\ -\ including\ floating\ point\ numbers,\ non-numeric\ characters\n\ and\ no\ data.\ In\ the\ event\ of\ an\ exception,\ the\ user\ is\ prompted\ to\ enter\n\ the\ correct\ data\ in\ the\ correct\ format.\n\ \n\ @return\ validated\ int\ value\ \n
+comment4.params=
+comment4.target=float\ getFloat()
+comment4.text=\ \n\ getFloat()\ returns\ a\ floating\ point\ value.\ Exception\ handling\ is\ used\ to\ trap\n\ invalid\ data\ -\ including\ non-numeric\ characters\ and\ no\ data.\n\ In\ the\ event\ of\ an\ exception\ (normally\ no\ data\ or\ alpha),\ the\ user\ is\ prompted\ to\ enter\n\ data\ in\ the\ correct\ format\n\ \n\ @return\ validated\ float\ value\n
+comment5.params=
+comment5.target=double\ getDouble()
+comment5.text=\ \n\ getDouble()\ returns\ a\ double\ precision\ floating\ point\ value.\ \n\ Exception\ handling\ is\ used\ to\ trap\ invalid\ data\ -\ including\ non-numeric\n\ characters\ and\ no\ data.\n\ In\ the\ event\ of\ an\ exception,\ the\ user\ is\ prompted\ to\ enter\n\ data\ in\ the\ correct\ format\n\ \n\ @return\ validated\ double\ precision\ value\n
+comment6.params=
+comment6.target=char\ getCharacter()
+comment6.text=\ \n\ getCharacter()\ returns\ a\ character\ from\ the\ keyboard.\ It\ does\ this\ by\ \n\ reading\ a\ string\ then\ taking\ the\ first\ character\ read.\ Subsequent\ characters\n\ are\ discarded\ without\ raising\ an\ exception.\n\ The\ method\ checks\ to\ ensure\ a\ character\ has\ been\ entered,\ and\ prompts\ \n\ if\ it\ has\ not.\n\ \n\ @return\ validated\ character\ value\n
+comment7.params=
+comment7.target=java.lang.String\ getString()
+comment7.text=\ \n\ getString()\ returns\ a\ String\ entered\ at\ the\ keyboard.\n\ @return\ String\ value\n
+numComments=8

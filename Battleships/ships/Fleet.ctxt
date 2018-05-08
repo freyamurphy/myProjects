@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Fleet
+comment0.text=\n\ Fleet\n\ \n\ Keeps\ track\ of\ all\ the\ computer's\ ships\n\n\ @author\ Freya\ Murphy\n\ @version\ 29-07-17\n
+comment1.params=
+comment1.target=Fleet()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Fleet\n\ \n\ @param\ \ \ none\n\ @return\ \ none\n
+comment2.params=
+comment2.target=Ship[]\ getShips()
+comment2.text=\n\ getShips\n\ \n\ Accessor\ method\ for\ ships\ field\n\ \n\ @param\ \ \ none\n\ @return\ \ array\ of\ ships\n
+comment3.params=index
+comment3.target=Ship\ getShip(int)
+comment3.text=\n\ getShip\n\ \n\ Returns\ the\ ship\ at\ a\ specified\ index\ of\ the\ ships\ array\n\ \n\ @param\ \ \ index\n\ @return\ \ ship\n
+comment4.params=
+comment4.target=boolean\ isDestroyed()
+comment4.text=\n\ isDestroyed\n\ \n\ Accessor\ method\ for\ destroyed\ field\n\ \n\ @param\ \ \ none\n\ @return\ \ true\ /\ false\n
+comment5.params=shots\ noOfShots
+comment5.target=void\ checkIfDestroyed(restOfGame.Shot[],\ int)
+comment5.text=\n\ checkIfDestroyed\n\ \n\ Checks\ if\ all\ ships\ in\ the\ fleet\ have\ been\ sunk\ and\ updates\ the\ destroyed\ field\ accordingly\n\ \n\ @param\ \ \ array\ of\ shots\ that\ have\ been\ made,\ number\ of\ shots\n\ @return\ \ none\n
+comment6.params=grid
+comment6.target=void\ placeShips(restOfGame.Grid)
+comment6.text=\n\ placeShips\n\ \n\ Randomly\ places\ ships\ on\ the\ grid\ and\ checks\ to\ make\ sure\ the\ layout\ is\ valid\n\ \n\ @param\ \ \ grid\n\ @return\ \ none\n
+numComments=7
