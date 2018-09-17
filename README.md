@@ -26,11 +26,11 @@ An assignment for Computer Systems 2A. I wrote the majority of the scripts but a
 
 ## Other projects (not in repository)
 ### Medtronic Hololens Project – December 2017-March 2018
-As an extracurricular project I made a mixed reality app for the Microsoft Hololens. The aim of the app was to educate medical students about the knee and I made it using Unity and C#. I was in a team of 7 students, although I was the only one studying computing science. I can't put any of the code online as it is owned by Medtronic but I did make a video of the app which can be found here: https://uod.box.com/s/2ozbkm859ieyebw03g2obwl769lp9p3f
+As an extracurricular project I made a mixed reality app for the Microsoft Hololens. The aim of the app was to educate medical students about the knee and I made it using Unity and C#. I was in a team of 7 students, although I was the only one studying computing science. I can't put any of the code online as it is owned by Medtronic.
 
 ### Network Analysis Project – March 2018
 Grade: A1  
-Assignment for Algorithm and AI. I worked in a team with 3 other students to analyse aeroplane flight data. I wrote some Python programs to visualise the network graphically and some C++ programs to calcualte average path length for the network.
+Assignment for Algorithm and AI. I worked in a team with 3 other students to analyse aeroplane flight data. I wrote some Python programs to visualise the network graphically and some C++ programs to calculate average path length for the network.
 
 ### C# Windows Forms apps – Febuary-March 2018
 Grades: A3 and A4  
